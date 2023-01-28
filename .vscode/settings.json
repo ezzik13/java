@@ -1,3 +1,12 @@
 {
-    "java.debug.settings.onBuildFailureProceed": true
+    "java.debug.settings.onBuildFailureProceed": true,
+    "java.project.sourcePaths": [
+        "23.01.21 lecsiya 2",
+        "23.01.19 seminar 1",
+        "23.01.24  sem 2"
+    ],
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "json-simple-1.1.1.jar/json-simple-1.1.1.jar"
+    ]
 }
