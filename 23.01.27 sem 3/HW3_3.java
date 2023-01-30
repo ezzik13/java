@@ -24,7 +24,8 @@ public class HW3_3 {
     }
     public static void FillSpisok(List<Integer> list) {
         Random ran = new Random();
-        for (int i = 0; i < 10; i++) {
+        int r = ran.nextInt(10)+10;
+        for (int i = 0; i < r; i++) {
         int rand = ran.nextInt(200)-100;
         list.add(rand);
         }
