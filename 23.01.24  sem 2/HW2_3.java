@@ -22,16 +22,17 @@ public class HW2_3 {
         Object ob = new JSONParser().parse(new FileReader("diary.json"));
         
         JSONArray SumDiary = (JSONArray) ob;
-        JSONObject jo =(JSONObject) ob;
+
         
 
         for (var el : SumDiary){
-            String name = String.valueOf(jo.get("name"));
+            JSONObject jo =(JSONObject) el;
+            String name = String.valueOf(jo.get("фамилия"));
             String ass = String.valueOf(jo.get("оценка"));
             String subj = String.valueOf(jo.get("предмет"));
             StringBuilder diary = new StringBuilder("студент " + name + " получил " + ass + " по предмету "+ subj);
             System.out.println(diary); 
-            System.out.println(el + " ");
+            // System.out.println(el + " ");
         }
 
     }

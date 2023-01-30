@@ -8,7 +8,8 @@ import java.util.logging.SimpleFormatter;
 
 public class HW2_2 {
     public static void main(String[] args) {
-        Logger logger = Logger.getLogger(HW2_2.class.getName());
+        Logger logger = Logger.getLogger(HW3_3.class.getName());
+        logger.setUseParentHandlers(false);
         FileHandler fh = null;
         try {
             fh = new FileHandler("log.txt");
@@ -21,7 +22,6 @@ public class HW2_2 {
         
         SimpleFormatter sFormat = new SimpleFormatter();
         fh.setFormatter(sFormat);
-
         
         int[] arr = new int[10];
         for (int i = 0; i < arr.length; i++) {

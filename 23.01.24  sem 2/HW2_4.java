@@ -7,7 +7,8 @@ import java.util.logging.SimpleFormatter;
 
 public class HW2_4 {
     public static void main(String[] args) {
-        Logger logger = Logger.getLogger(HW2_2.class.getName());
+        Logger logger = Logger.getLogger(HW3_3.class.getName());
+        logger.setUseParentHandlers(false);
         FileHandler fh = null;
         try {
             fh = new FileHandler("log_calc.txt");
