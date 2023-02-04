@@ -1,10 +1,11 @@
 {
     "java.debug.settings.onBuildFailureProceed": true,
     "java.project.sourcePaths": [
+        "23.01.27 sem 3",
         "23.01.24  sem 2",
         "23.01.21 lecsiya 2",
         "23.01.19 seminar 1",
-        "23.01.27 sem 3"
+        "23.01.31 sem 4"
     ],
     "java.project.referencedLibraries": [
         "lib/**/*.jar",
