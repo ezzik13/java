@@ -1,7 +1,7 @@
-import java.util.ArrayList;
+// import java.util.ArrayList;
 import java.util.Deque;
 import java.util.Stack;
-import java.util.Queue;
+// import java.util.Queue;
 import java.util.ArrayDeque;
 // 1) Написать метод, который принимает массив элементов,
 //  помещает их в стэк и выводит на консоль содержимое стэка.

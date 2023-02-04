@@ -20,7 +20,7 @@ public class sem4_1 {
         System.out.println(end - start);
         start = System.nanoTime();
         for (int j = 0; j < 10000; j++) {
-            list1.add(j);
+            list2.add(j);
         }
         end = System.nanoTime();
         System.out.println(end - start);

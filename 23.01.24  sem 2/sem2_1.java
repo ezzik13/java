@@ -28,6 +28,6 @@ public class sem2_1 {
             stringNew = (i%2 == 0) ?  stringNew + c1 : stringNew + c2;   
         }
         System.out.println(stringNew);
-        
+       scan.close(); 
     }
 }

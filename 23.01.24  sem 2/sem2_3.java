@@ -10,6 +10,7 @@ public class sem2_3 {
         System.out.println("Введите строку для проверки: ");
         StringBuilder my_sb = new StringBuilder(scan.nextLine());
         palindrom(my_sb);
+        scan.close();
     }
     public static void palindrom(StringBuilder a){
         StringBuilder a_pal = new StringBuilder(a).reverse();

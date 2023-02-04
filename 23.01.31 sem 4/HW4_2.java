@@ -22,6 +22,7 @@ public class HW4_2 {
         myDequeue(myQueue);
         myPrint(myQueue);
         myfirst(myQueue);
+        myPrint(myQueue);
     }
 
     public static void myPrint(Queue abs){
