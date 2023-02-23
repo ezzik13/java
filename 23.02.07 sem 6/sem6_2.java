@@ -4,7 +4,7 @@ import java.util.Iterator;
 import java.util.LinkedHashSet;
 import java.util.TreeSet;
 
-public class Sem6 {
+public class sem6_2 {
     public static void main(String[] args) {
         // Integer[] arr = {1, 2, 4, 5, 3, 2, 4, 5, 6, 3};
         // HashSet<Integer> set1 = new HashSet<>(Arrays.asList(arr));
